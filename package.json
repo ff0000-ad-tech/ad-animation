@@ -12,9 +12,10 @@
   "author": "RED Interactive Agency",
   "license": "ISC",
   "dependencies": {
-    "ad-view": "file:~/Internal/ad-view",
     "ad-control": "file:~/Internal/ad-control",
+    "ad-events": "file:../ad-events",
+    "ad-ui": "file:../ad-ui",
     "ad-utils": "file:~/Internal/ad-utils",
-    "ad-events": "file:~/Internal/ad-events"
+    "ad-view": "file:../ad-view"
   }
 }
