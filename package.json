@@ -13,9 +13,9 @@
   "license": "ISC",
   "dependencies": {
     "ad-control": "git://github.com:ff0000-ad-tech/ad-control.git",
-    "ad-events": "file:../ad-events",
-    "ad-ui": "file:../ad-ui",
+    "ad-events": "git://github.com:ff0000-ad-tech/ad-events.git",
+    "ad-ui": "git://github.com:ff0000-ad-tech/ad-ui.git",
     "ad-utils": "git://github.com:ff0000-ad-tech/ad-utils.git",
-    "ad-view": "file:../ad-view"
+    "ad-view": "git://github.com:ff0000-ad-tech/ad-view.git"
   }
 }
