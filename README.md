@@ -9,7 +9,33 @@
 [![npm license](https://img.shields.io/npm/l/@ff0000-ad-tech%2Fad-animation.svg?style=flat-square)](https://github.com/ff0000-ad-tech/ad-animation/blob/master/LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-# Animation
+* * *
+
+# ad-animation
+
+A package of animation tools leveraging the greensock library.
+
+## API 
+
+## <a name="SpritePlayer" href="./docs/SpritePlayer.md">SpritePlayer</a>
+* <a href="./docs/SpritePlayer.md#SpritePlayer.onComplete">.onComplete</a> : <code>function</code>
+* <a href="./docs/SpritePlayer.md#SpritePlayer.onLoop">.onLoop</a> : <code>function</code>
+* <a href="./docs/SpritePlayer.md#SpritePlayer.sprite">.sprite</a> : <code>Graphic.Sprite</code>
+* <a href="./docs/SpritePlayer.md#SpritePlayer.loop">.loop</a> : <code>boolean</code> \| <code>number</code>
+* <a href="./docs/SpritePlayer.md#SpritePlayer.frame">.frame</a> : <code>number</code>
+* <a href="./docs/SpritePlayer.md#SpritePlayer.targetFrame">.targetFrame</a> : <code>number</code>
+* <a href="./docs/SpritePlayer.md#SpritePlayer.speed">.speed</a> : <code>number</code>
+* <a href="./docs/SpritePlayer.md#SpritePlayer.play">.play()</a>
+* <a href="./docs/SpritePlayer.md#SpritePlayer.pause">.pause()</a>
+* <a href="./docs/SpritePlayer.md#SpritePlayer.stop">.stop()</a>
+* <a href="./docs/SpritePlayer.md#SpritePlayer.clear">.clear()</a>
+* <a href="./docs/SpritePlayer.md#SpritePlayer.render">.render()</a>
+* <a href="./docs/SpritePlayer.md#SpritePlayer.reverse">.reverse()</a>
+* <a href="./docs/SpritePlayer.md#SpritePlayer.forward">.forward()</a>
+## <a name="TweenPromise" href="./docs/TweenPromise.md">TweenPromise</a>
+* <a href="./docs/TweenPromise.md#TweenPromise.to">.to(target, time, vars)</a> ⇒ <code>Promise</code>
+* <a href="./docs/TweenPromise.md#TweenPromise.from">.from(target, time, vars)</a> ⇒ <code>Promise</code>
+* <a href="./docs/TweenPromise.md#TweenPromise.fromTo">.fromTo(target, time, fromVars, toVars)</a> ⇒ <code>Promise</code>
 
 
-
+* * *
